@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+
+
+
+
+<servlet>
+	<servlet-name>sampleLogIn</servlet-name>
+	<servlet-class>SampleLogIn</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>samplelogin</servlet-name>
+	<url-pattern>/samplelogin</url-pattern>
+</servlet-mapping>
+
+	
+</web-app>
